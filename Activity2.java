@@ -42,9 +42,14 @@ public class Activity2 {
     public static void main(String[] args) {
         Activity2 test = new Activity2();
         int[] t1 = {10000,5,6,2,3,5,7, 1,12, 8, 64,2};
-        test.sort(t1);
-        System.out.println(Arrays.toString(t1));
-        int[] t2 = {10000,5,6,2,3,5,7, 1,12, 8, 64,2};
+        int[] t2 = {1, 4, 5, 2, 6};
+        int[] t3 = {5, 4, 7, 12, 13, 16};
+        int[] t4 = {5, 1};
+        int[] t5 = {1};
+        System.out.println(test.sortAndFindMedian(t1));
         System.out.println(test.sortAndFindMedian(t2));
+        System.out.println(test.sortAndFindMedian(t3));
+        System.out.println(test.sortAndFindMedian(t4));
+        System.out.println(test.sortAndFindMedian(t5));
     }
 }
